@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+/* Custom animated underline with a bend effect */
+.custom-animated-underline {
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.custom-animated-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust this value to position the underline lower */
+    width: 100%;
+    height: 3px;
+    background: red;
+    border-radius: 50% 50% 0 0;
+    transform-origin: left center;
+    animation: underline-bend-animation 1.5s ease-in ;
+}
+
+/* Animation for the bending underline */
+@keyframes underline-bend-animation {
+    0% {
+        transform: scaleX(0);
+    }
+    50% {
+        transform: scaleX(1.05) translateY(-1px); /* Creates the bending effect */
+    }
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+
+@keyframes fillWidth {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.fill-animation {
+    animation: fillWidth 2s forwards;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.overflow-x-auto {
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    scrollbar-width: none;     /* For Firefox */
+}
+
+
+
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
