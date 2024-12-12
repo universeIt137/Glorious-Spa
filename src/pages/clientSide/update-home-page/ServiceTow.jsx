@@ -8,8 +8,8 @@ const ServiceTow = () => {
                 <div className="text-center lg:mb-8">
                     <img className='w-[75%] ' src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732445988/service-logo_nojdxj.png" alt="" />
                     {/* Title */}
-                    <h1 className="lg:text-4xl text-[17px] lg:mt-6 mt-3 font-bold text-pink-600">
-                        Our <span className="text-blue-600">Services!</span>
+                    <h1 className="lg:text-4xl text-[17px] lg:mt-6 mt-3 font-bold text-[#6c1f1f]">
+                        Our <span className="text-[#ef4444]">Services!</span>
                     </h1>
                 </div>
 

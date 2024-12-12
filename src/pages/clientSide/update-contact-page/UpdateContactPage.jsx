@@ -59,7 +59,7 @@ const UpdateContactPage = () => {
                     Contact <span className="text-blue-500">us!</span>
                 </h1>
                 <p className="lg:mt-4 text-[10px] lg:text-[16px] text-gray-600 text-justify max-w-2xl">
-                    At Smart Beauty Body Spa BD, we’re dedicated to providing you with the ultimate relaxation
+                    At Glorious Thai Spa BD, we’re dedicated to providing you with the ultimate relaxation
                     experience. If you have any questions, concerns, or if you’d like to schedule an
                     appointment to unwind and rejuvenate, please don’t hesitate to get in touch with us.
                     Our knowledgeable and friendly team is here to assist you.

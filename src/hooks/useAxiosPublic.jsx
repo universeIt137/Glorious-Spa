@@ -1,9 +1,9 @@
 import axios from "axios";
 const axiosPublic = axios.create({
 
-    baseURL: 'http://localhost:5000'
+    // baseURL: 'http://localhost:5000'
 
-    // baseURL: 'https://smart-beauty-body-spa-server.vercel.app'
+    baseURL: 'https://glorious-thai-spa-server.vercel.app/'
 })
 
 const useAxiosPublic = () => {

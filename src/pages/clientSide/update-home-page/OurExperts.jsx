@@ -13,8 +13,8 @@ const OurExperts = () => {
                     />
                 </div>
                 <div>
-                    <h1 className="text-center text-[#D110B7] lg:text-5xl font-bold lg:my-5 my-3">
-                        Our <span className="text-blue-400">Experts!</span>
+                    <h1 className="text-center text-[#6c1f1f] lg:text-5xl font-bold lg:my-5 my-3">
+                        Our <span className="text-[#ef4444] ">Experts!</span>
                     </h1>
                 </div>
                 <div className="text-center">

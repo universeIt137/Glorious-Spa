@@ -55,8 +55,8 @@ const Visite = () => {
                         <div>
                             <div className=" rounded-lg  overflow-hidden -mt-12 lg:-mt-0 lg:w-[450px]">
                                 {/* Header */}
-                                <div className="bg-pink-500  text-center py-3 lg:py-4">
-                                    <h2 className="lg:text-lg text-[11px] font-bold">Visit Us</h2>
+                                <div className="bg-[#6c1f1f] text-center py-3 lg:py-4">
+                                    <h2 className="lg:text-lg text-[11px] text-white font-bold">Visit Us</h2>
                                 </div>
                                 {/* Days and Timings */}
                                 <div className="lg:p-4 p-3 space-y-4  ">

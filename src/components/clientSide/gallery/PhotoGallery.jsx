@@ -54,8 +54,8 @@ const PhotoGallery = () => {
         <div className="">
 
             <div className="py-4">
-                <h2  className="text-4xl text-center font-bold text-pink-500 mb-4">
-                    Our <span className="text-blue-500">Gallery!</span>
+                <h2  className="text-4xl text-center font-bold text-[#6c1f1f] mb-4">
+                    Our <span className="text-[#ef4444]">Gallery!</span>
                 </h2>
             </div>
 
