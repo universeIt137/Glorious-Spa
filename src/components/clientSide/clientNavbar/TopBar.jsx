@@ -22,7 +22,7 @@ const TopBar = ({address, phone}) => {
                     <div className="flex justify-center md:justify-end items-center space-x-8 mt-2 w-full md:w-auto">
                         {/* Address Section */}
                         <div className="flex items-center space-x-2">
-                            <MdLocationOn className="text-blue-600 w-6 h-6" />
+                            <MdLocationOn className="text-[#EF4444] w-6 h-6" />
                             <div>
                                 <p className="text-base text-gray-800 font-medium">{ address }</p>
                                 <p className="text-sm text-gray-500">Visit Us</p>
@@ -30,7 +30,7 @@ const TopBar = ({address, phone}) => {
                         </div>
                         {/* Phone Section */}
                         <div className="flex items-center space-x-2">
-                            <FaPhoneAlt className="text-blue-600 w-5 h-5" />
+                            <FaPhoneAlt className="text-[#EF4444] w-5 h-5" />
                             <div>
                                 <p className="text-base text-gray-800 font-medium">{phone}</p>
                                 <p className="text-sm text-gray-500">Call Us</p>
@@ -38,7 +38,7 @@ const TopBar = ({address, phone}) => {
                         </div>
                         {/* Schedule Section */}
                         <div className="flex items-center space-x-2">
-                            <MdAccessTime className="text-blue-600 w-6 h-6" />
+                            <MdAccessTime className="text-[#EF4444] w-6 h-6" />
                             <div>
                                 <p className="text-base text-gray-800 font-medium">Sat - Fri: 10am-10pm</p>
                                 <p className="text-sm text-gray-500">Open</p>

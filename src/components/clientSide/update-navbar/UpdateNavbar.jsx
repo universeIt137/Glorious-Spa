@@ -9,7 +9,7 @@ const UpdateNavbar = () => {
 
 
             {/* Navbar Section */}
-            <div className="bg-blue-600  w-full">
+            <div className="bg-red-500 w-full">
                 <div className="container mx-auto flex items-center justify-between px-4 py-2">
                     {/* Navigation Links */}
                     <div className="flex space-x-8">

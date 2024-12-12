@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import useAxiosPublic from "../../../hooks/useAxiosPublic";
 import { useQuery } from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 
 const ServiceThree = () => {
-    
+
 
     const axiosPublic = useAxiosPublic();
 
@@ -15,7 +16,7 @@ const ServiceThree = () => {
             return res.data;
         },
     });
-    
+
 
 
 
@@ -76,9 +77,11 @@ const ServiceThree = () => {
                         <p className="lg:text-lg text-[11px] text-gray-200">
                             Indulge in the ultimate relaxation and wellness experience...
                         </p>
-                        <button className="lg:px-6 px-3 py-2 lg:text-[16px] text-[12px] lg:py-3 mt-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg">
-                            View all Services
-                        </button>
+                        <Link to={`/packages`}>
+                            <button className="lg:px-6 px-3 py-2 lg:text-[16px] text-[12px] lg:py-3 mt-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg">
+                                View all Services
+                            </button>
+                        </Link>
                     </div>
                     <div className="relative w-full overflow-hidden">
                         <div

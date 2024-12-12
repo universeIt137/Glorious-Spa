@@ -80,8 +80,8 @@ const Testimonials = () => {
 
     return (
         <>
-        <h2 className="text-4xl text-center font-bold text-pink-500 mb-4">
-                        Our Client <span className="text-blue-500">Review!</span>
+        <h2 className="text-4xl text-center font-bold text-[#6c1f1f] mb-4">
+                        Our Client <span className="text-[#ef4444]">Review!</span>
                     </h2>
             <div
                 className="overflow-x-auto w-10/12 mx-auto p-6 cursor-grab"

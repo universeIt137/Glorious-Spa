@@ -33,8 +33,8 @@ const WhyChooseUs = () => {
         <div className="w-11/12 mx-auto lg:my-10">
             <div>
                 <h2 className="lg:text-4xl text-xl text-center font-bold lg:mb-6">
-                    <span className="text-pink-500">Why</span>{" "}
-                    <span className="text-blue-600">Choose us?</span>
+                    <span className="text-[#6c1f1f]">Why</span>{" "}
+                    <span className="text-[#ef4444]">Choose us?</span>
                 </h2>
             </div>
             {isLoading && (

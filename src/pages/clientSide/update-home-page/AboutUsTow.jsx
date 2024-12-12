@@ -11,12 +11,12 @@ const AboutUsTow = () => {
                         <img className='w-28 mb-3 ' src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732445988/service-logo_nojdxj.png" alt="" />
                     </div>
                     {/* Title */}
-                    <h2 className="text-4xl font-bold text-pink-500 mb-4">
-                        About <span className="text-blue-500">US!</span>
+                    <h2 className="text-4xl font-bold text-[#6c1f1f] mb-4">
+                        About <span className="text-[#ef4444] ">US!</span>
                     </h2>
                     {/* Description */}
                     <p className=" text-gray-700 text-justify ">
-                        Smart Beauty Body Spa BD is the best body massage spa in Gulshan. Our mission
+                        Glorious Thai Spa BD is the best body massage spa in Gulshan. Our mission
                         is to provide you with an unparalleled spa experience that rejuvenates
                         the body, mind, and soul. With a deep commitment to your well-being,
                         we offer a range of luxurious treatments designed to restore balance

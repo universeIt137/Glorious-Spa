@@ -78,7 +78,7 @@ const Package = () => {
                     {/* Previous Button */}
                     <button
                         onClick={handlePrev}
-                        className="absolute left-0 bg-[#2563EB] text-white p-2 rounded-full  z-10"
+                        className="absolute left-0 bg-[#EF4444] text-white p-2 rounded-full  z-10"
                     >
                         <FaChevronLeft />
                     </button>
@@ -103,7 +103,7 @@ const Package = () => {
                                         </p>
                                     ))}
                                 </div>
-                                <Link to={`/package-details/${service?._id}`}> <button className="mt-4 w-full bg-[#2563EB] text-lg font-semibold text-white py-2 rounded-md ">
+                                <Link to={`/package-details/${service?._id}`}> <button className="mt-4 w-full bg-[#EF4444] text-lg font-semibold text-white py-2 rounded-md ">
                                     Details
                                 </button> </Link>
                             </div>
@@ -113,7 +113,7 @@ const Package = () => {
                     {/* Next Button */}
                     <button
                         onClick={handleNext}
-                        className="absolute right-0 bg-[#2563EB] text-white p-2 rounded-full  z-10"
+                        className="absolute right-0 bg-[#EF4444] text-white p-2 rounded-full  z-10"
                     >
                         <FaChevronRight />
                     </button>
