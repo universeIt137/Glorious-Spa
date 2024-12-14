@@ -6,7 +6,7 @@ const ButtonAnimation = ({id}) => {
     return (
         <Link to={`/package-details/${id}`}
             href="#"
-            className="relative inline-block px-8 py-4 text-black font-bold text-sm uppercase overflow-hidden tracking-widest transition-all duration-500 hover:bg-[#03e9f4] hover:text-white hover:rounded-md"
+            className="relative inline-block px-8 py-4 text-white font-bold text-sm uppercase overflow-hidden tracking-widest transition-all duration-500 hover:bg-[#03e9f4] hover:text-white hover:rounded-md"
             style={{
                 boxShadow: "0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4",
             }}
