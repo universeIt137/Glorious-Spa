@@ -67,7 +67,7 @@ const Package = () => {
             className="bg-cover bg-center bg-no-repeat my-12 lg:my-24 text-white min-h-screen"
             style={{
                 backgroundImage:
-                    "url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732782998/spa-banner-4_ebpujd.png')",
+                    "url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1734151244/g-1_vhv3u9.png')",
             }}
         >
             <div className="w-11/12 mx-auto">

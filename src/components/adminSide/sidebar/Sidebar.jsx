@@ -143,7 +143,7 @@ const chooseUs =
             >
                 <div className="flex justify-between items-center p-4 gap-8">
                     <div className={`text-2xl font-bold ${!isSidebarOpen && 'hidden'}`}>
-                        <Link to={'/'}>Smart Beauty Body Spa
+                        <Link to={'/'}>Glorious Thai Spa
                         </Link>
                     </div>
                     <button
