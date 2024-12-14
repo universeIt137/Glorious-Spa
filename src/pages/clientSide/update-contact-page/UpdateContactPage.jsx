@@ -55,8 +55,8 @@ const UpdateContactPage = () => {
                 <title>Smart Beauty Body Spa BD | Contact Us</title>
             </Helmet>
             <div className="flex flex-col items-center justify-center bg-white my-4">
-                <h1 className="lg:text-4xl font-bold text-pink-500">
-                    Contact <span className="text-blue-500">us!</span>
+                <h1 className="lg:text-4xl font-bold text-[#6C1F1F]  ">
+                    Contact <span className="text-[#EF4444] ">us!</span>
                 </h1>
                 <p className="lg:mt-4 text-[10px] lg:text-[16px] text-gray-600 text-justify max-w-2xl">
                     At Glorious Thai Spa BD, we’re dedicated to providing you with the ultimate relaxation
@@ -65,7 +65,7 @@ const UpdateContactPage = () => {
                     Our knowledgeable and friendly team is here to assist you.
                 </p>
             </div>
-            <div className="bg-blue-600 py-12">
+            <div className="bg-[#6C1F1F] py-12">
                 <div className="w-11/12 mx-auto">
                     <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
                         <div>
@@ -133,7 +133,7 @@ const UpdateContactPage = () => {
                                     type="submit"
                                     disabled={loading} // Disable button during loading
                                     className={`w-full text-white font-bold py-3 px-4 rounded-lg transition duration-300 ${
-                                        loading ? "bg-gray-500 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-700"
+                                        loading ? "bg-gray-500 cursor-not-allowed" : " bg-[#EF4444] "
                                     }`}
                                 >
                                     {loading ? (
