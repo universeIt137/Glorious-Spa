@@ -29,6 +29,7 @@ const HomePageContentForm = () => {
         aboutTitle: "",
         aboutSubTitle: "",
         relatedSearch: "",
+        google_map : "",
     });
 
     const [loading, setLoading] = useState(false);
@@ -60,6 +61,7 @@ const HomePageContentForm = () => {
         const whatsapp = form.whatsapp.value;
         const email = form.email.value;
         const address = form.address.value;
+        const google_map = form.google_map.value
 
 
         let mainBannerUrl = ''
@@ -90,7 +92,7 @@ const HomePageContentForm = () => {
 
         // Simulate form submission
         try {
-            const data = { name, bannerTitle, bannerSubTitle, mainBannerUrl, bannerDescription, latestNews, youtubeVideos, logoImageUrl, bannerImageUrl, aboutTitle, aboutSubTitle, relatedSearch, phone, whatsapp, email, address }
+            const data = { name, bannerTitle, bannerSubTitle, mainBannerUrl, bannerDescription, latestNews, youtubeVideos, logoImageUrl, bannerImageUrl, aboutTitle, aboutSubTitle, relatedSearch, phone, whatsapp, email, address,google_map }
             // You would typically send the data to the server here
             axiosPublic.post(`/homepageContent/${content?._id || 'notAvailable'}`, data)
                 .then(res => {
@@ -142,7 +144,7 @@ const HomePageContentForm = () => {
                     <div className=" w-full">
                         <div className="relative">
                             <p>Upload Banner Image</p>
-                            <input type="file" name='mainbanner' className="file-input file-input-bordered file-input-md w-full "  />
+                            <input type="file" name='mainbanner' className="file-input file-input-bordered file-input-md w-full " />
                         </div>
                         <div className="avatar flex-col">
                             <p>Already uploaded Banner Image</p>
@@ -244,6 +246,17 @@ const HomePageContentForm = () => {
 
                     </div>
                 </div>
+                <div>
+                    <label htmlFor="google-map">Google Map</label>
+                    <textarea
+                        id="google-map"
+                        rows="5"
+                        cols="15"
+                        name="google_map"
+                        defaultValue={content?.google_map}
+                        className="w-full px-4 py-2 border rounded-md"
+                    />
+                </div>
 
                 <button type="submit" className="w-full py-2 bg-blue-500 text-white rounded-md">
                     {loading ? "Uploading..." : "Submit"}
@@ -254,3 +267,4 @@ const HomePageContentForm = () => {
 };
 
 export default HomePageContentForm;
+

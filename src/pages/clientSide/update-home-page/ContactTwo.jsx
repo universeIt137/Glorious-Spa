@@ -82,7 +82,7 @@ const ContactTwo = () => {
             <div className=" hover:scale-105 transition-transform duration-300  ease-out w-full flex my-5 items-center justify-center ">
                 <iframe
                     className="w-full h-[250px] lg:h-[320px] rounded-lg shadow-lg"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14603.550514449464!2d90.39742741343842!3d23.787015538537563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7001fdf29f1%3A0xfbc6d012e19b492e!2sGulshan%20Glow%20Thai%20Spa!5e0!3m2!1sen!2sbd!4v1733045842456!5m2!1sen!2sbd"
+                    src={ webData?.google_map }
                     allowFullScreen=""
                     loading="lazy"
                 ></iframe>
