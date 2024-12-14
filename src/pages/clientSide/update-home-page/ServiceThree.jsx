@@ -65,7 +65,8 @@ const ServiceThree = () => {
         <div
             className="min-h-screen bg-cover bg-center text-white"
             style={{
-                backgroundImage: "url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732953822/spa-banner-16_mzxjix.png')",
+                height:"100%",
+                backgroundImage: "url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1734151244/g-1_vhv3u9.png')",
             }}
         >
             <div className="my-5 w-11/12 mx-auto">
@@ -78,7 +79,7 @@ const ServiceThree = () => {
                             Indulge in the ultimate relaxation and wellness experience...
                         </p>
                         <Link to={`/packages`}>
-                            <button className="lg:px-6 px-3 py-2 lg:text-[16px] text-[12px] lg:py-3 mt-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg">
+                            <button className="lg:px-6 px-3 py-2 lg:text-[16px] text-[12px] lg:py-3 mt-2 bg-[#6C1F1F] rounded-lg">
                                 View all Services
                             </button>
                         </Link>
@@ -106,13 +107,13 @@ const ServiceThree = () => {
                         </div>
                         <button
                             onClick={prevSlide}
-                            className="absolute top-[130px] left-2 bg-[#1057C1] text-white px-4 py-3 rounded-full"
+                            className="absolute top-[130px] left-2 bg-[#6C1F1F] text-white px-4 py-3 rounded-full"
                         >
                             {"<"}
                         </button>
                         <button
                             onClick={nextSlide}
-                            className="absolute top-[130px] right-2 bg-[#1057C1] text-white px-4 py-3 rounded-full"
+                            className="absolute top-[130px] right-2 bg-[#6C1F1F] text-white px-4 py-3 rounded-full"
                         >
                             {">"}
                         </button>

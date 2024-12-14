@@ -15,7 +15,7 @@ const Visite = () => {
         },
     });
     return (
-        <div className="my-12 bg-[url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732782998/spa-banner-4_ebpujd.png')] bg-cover bg-center bg-no-repeat min-h-screen">
+        <div className="my-12 bg-[url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1734151244/g-1_vhv3u9.png')] bg-cover bg-center bg-no-repeat min-h-screen">
             <div>
                 <div className="w-11/12 mx-auto">
                     <div className='flex flex-col lg:flex-row justify-between items-center lg:gap-5 ' >

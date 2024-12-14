@@ -6,7 +6,7 @@ const SpaSection = () => {
         <div
             className="bg-cover bg-center text-white py-5 lg:py-10 "
             style={{
-                backgroundImage: `url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1732782998/spa-banner-4_ebpujd.png')`, // Replace with the actual background image URL
+                backgroundImage: `url('https://res.cloudinary.com/dnvmj9pvk/image/upload/v1734151244/g-1_vhv3u9.png')`, // Replace with the actual background image URL
             }}
         >
             <div className=" py-16 px-8">
@@ -41,35 +41,35 @@ const SpaSection = () => {
                         {/* Statistics Section */}
                         <div className="flex flex-wrap justify-center lg:justify-start gap-5 lg:gap-6 mt-4 lg:mt-8">
                             {/* Stat 1 */}
-                            <div className="flex items-center gap-2 lg:gap-4 bg-blue-800 lg:p-4 p-2 rounded-lg shadow-lg">
-                                <div className="bg-blue-700 lg:p-3 p-2 rounded-full">
-                                    <FaGoogle className="lg:text-2xl text-xl text-pink-500" />
+                            <div className="flex items-center gap-2 lg:gap-4 bg-[#6C1F1F] lg:p-4 p-2 rounded-lg shadow-lg">
+                                <div className="bg-[#F70808] lg:p-3 p-2 rounded-full">
+                                    <FaGoogle className="lg:text-2xl text-xl text-white" />
                                 </div>
                                 <div>
-                                    <p className="lg:text-2xl text-xl font-bold text-pink-500">4950</p>
-                                    <p className="lg:text-sm  text-[12px] text-gray-300">Appreciations</p>
+                                    <p className="lg:text-2xl text-xl font-bold text-white">4950</p>
+                                    <p className="lg:text-sm font-bold  text-[12px] text-white">Appreciations</p>
                                 </div>
                             </div>
 
                             {/* Stat 2 */}
-                            <div className="flex items-center gap-2 lg:gap-4 bg-blue-800 lg:p-4 p-2 rounded-lg shadow-lg">
-                                <div className="bg-blue-700 lg:p-3 p-2 rounded-full">
-                                    <FaFacebook className="text-2xl text-pink-500" />
+                            <div className="flex items-center gap-2 lg:gap-4 bg-[#6C1F1F] lg:p-4 p-2 rounded-lg shadow-lg">
+                                <div className="bg-[#F70808] lg:p-3 p-2 rounded-full">
+                                    <FaFacebook className="text-2xl text-white" />
                                 </div>
                                 <div>
-                                    <p className="lg:text-2xl text-xl font-bold text-pink-500">2234</p>
-                                    <p className="lg:text-sm  text-[12px] text-gray-300">Followers</p>
+                                    <p className="lg:text-2xl text-xl font-bold text-white">2234</p>
+                                    <p className="lg:text-sm  text-[12px] text-white font-bold ">Followers</p>
                                 </div>
                             </div>
 
                             {/* Stat 3 */}
-                            <div className="flex items-center gap-2 lg:gap-4 bg-blue-800 lg:p-4 p-2 rounded-lg shadow-lg">
-                                <div className="bg-blue-700 lg:p-3 p-2 rounded-full">
-                                    <FaThumbsUp className="text-2xl text-pink-500" />
+                            <div className="flex items-center gap-2 lg:gap-4 bg-[#6C1F1F] lg:p-4 p-2 rounded-lg shadow-lg">
+                                <div className="bg-[#F70808] lg:p-3 p-2 rounded-full">
+                                    <FaThumbsUp className="text-2xl text-white" />
                                 </div>
                                 <div>
-                                    <p className="lg:text-2xl text-xl font-bold text-pink-500">4015</p>
-                                    <p className="lg:text-sm  text-[12px] text-gray-300">Likes</p>
+                                    <p className="lg:text-2xl text-xl font-bold text-white">4015</p>
+                                    <p className="lg:text-sm  text-[12px] text-white font-bold ">Likes</p>
                                 </div>
                             </div>
                         </div>

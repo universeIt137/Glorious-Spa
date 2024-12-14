@@ -55,14 +55,14 @@ const WhyChooseUs = () => {
                                     key={feature._id}
                                     onClick={() => setSelectedFeature(feature)}
                                     className={`flex items-center rounded-lg cursor-pointer transition ${selectedFeature._id === feature._id
-                                        ? "bg-purple-500 text-white"
-                                        : "bg-pink-100 hover:bg-pink-200"
+                                        ? "bg-[#6c1f1f] text-white"
+                                        : "bg-[#ef4444] "
                                         }`}
                                 >
                                     <div
                                         className={`lg:text-5xl p-4 rounded-full font-bold mr-4 ${selectedFeature._id === feature._id
-                                            ? "bg-purple-500 text-white"
-                                            : "bg-pink-100"
+                                            ? "bg-[#ef4444] text-white"
+                                            : "bg-[#6c1f1f]"
                                             }`}
                                     >
                                         <img className="w-12 h-12 rounded-full  " src={feature.icon} alt="" />
@@ -85,7 +85,7 @@ const WhyChooseUs = () => {
                                 backgroundImage: `url('${selectedFeature.image}')`,
                             }}
                         >
-                            <div className=" bg-black opacity-60  p-4 h-[72vh] rounded-lg">
+                            <div className="   p-4 h-[72vh] rounded-lg">
                                 <h3 className="lg:text-2xl text-white font-semibold lg:mb-4">
                                     {selectedFeature.title}
                                 </h3>

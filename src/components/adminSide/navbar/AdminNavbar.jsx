@@ -6,7 +6,7 @@ const AdminNavbar = () => {
             <div className="flex justify-between items-center bg-white shadow p-4">
                 
                 <div className="flex items-center space-x-4 text-2xl font-bold">
-                Smart Beauty Body Spa Dashboard
+                Glorious Thai Spa Dashboard
                 </div>
             </div>
         </div>
